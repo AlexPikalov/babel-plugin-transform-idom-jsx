@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-transform-idom-jsx",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Turn JSX into Incremental DOM function calls",
   "repository": "https://github.com/AlexPikalov/babel-plugin-transform-idom-jsx",
   "license": "MIT",
@@ -10,7 +10,7 @@
   ],
   "dependencies": {
     "babel-runtime": "^6.0.0",
-    "babel-helper-builder-idom-jsx": "^0.0.3",
+    "babel-helper-builder-idom-jsx": "^0.0.4",
     "babel-plugin-syntax-jsx": "^6.8.0"
   },
   "devDependencies": {
