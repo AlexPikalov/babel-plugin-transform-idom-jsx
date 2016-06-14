@@ -1,9 +1,9 @@
 /* eslint max-len: 0 */
-
+import vf from 'babel-helper-builder-idom-jsx';
 export default function ({ types: t }) {
   let JSX_ANNOTATION_REGEX = /\*?\s*@jsx\s+([^\s]+)/;
 
-  let visitor = require("babel-helper-builder-idom-jsx")({
+  let visitor = vf({
     pre(state) {
       let tagName = state.tagName;
       let args    = state.args;
